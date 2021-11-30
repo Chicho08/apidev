@@ -1,54 +1,61 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 3,
-      "body": "some comment",
-      "postId": 2
-    },
-    {
-      "id": 4,
-      "body": "some comment",
-      "postId": 3
-    }
+	"posts": [{
+			"id": 1,
+			"title": "What is the path to happiness?"
+		},
+		{
+			"id": 2,
+			"title": "Name one widely used programming language."
+		},
+		{
+			"id": 3,
+			"title": "Color of the sky?"
+		}
+	],
+	"comments": [{
+			"id": 1,
+			"body": "Good sleep.",
+			"postId": 1
+		},
+		{
+			"id": 2,
+			"body": "Coffee",
+			"postId": 1
+		},
+		{
+			"id": 3,
+			"body": "COBOL",
+			"postId": 2
+		},
+		{
+			"id": 4,
+			"body": "Not Blue!",
+			"postId": 3
+		}
 
-  ],
-  "rates": [
-    {
-      "id": 1,
-      "value": 3,
-      "commentId": 1
-    },
-    {
-      "id": 2,
-      "value": 4,
-      "commentId": 2
-    }
-  ],
-  "profile": {
-    "name": "chicho08"
-  }
+	],
+	"rates": [{
+			"id": 1,
+			"value": 4,
+			"commentId": 1
+		},
+		{
+			"id": 2,
+			"value": 10,
+			"commentId": 2
+		}, {
+			"id": 1,
+			"value": 1,
+			"commentId": 3
+		},
+		{
+			"id": 2,
+			"value": null,
+			"commentId": 4
+		}
+
+	],
+	"profile": {
+		"name": "chicho08"
+	}
 }
