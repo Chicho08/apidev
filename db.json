@@ -5,11 +5,11 @@
     { "id": 3, "title": "Post 3" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "here is my comment number 1", "postId": 1 },
+    { "id": 2, "body": "here is my comment number 2", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "chicho08"
   }
 }
 
